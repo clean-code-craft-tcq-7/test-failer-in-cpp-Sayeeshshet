@@ -1,10 +1,8 @@
 #include "gtest/gtest.h"
 
-extern "C" {
-    void testTshirtSize();
-    void testPrintColorMap();
-    void testWeatherReport();
-}
+void testTshirtSize();
+void testPrintColorMap();
+void testWeatherReport();
 
 TEST(TShirt, Size) {
     testTshirtSize();
